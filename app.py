@@ -18,5 +18,6 @@ if not GITLAB_TOKEN or not GITLAB_PROJECT_ID or not GITLAB_API_URL or not GITLAB
 
 # Título del formulario
 st.title(GITLAB_TOKEN)
-
-
+st.write(GITLAB_PROJECT_ID) 
+st.write(GITLAB_API_URL)
+st.write(GITLAB_BASE_URL)
